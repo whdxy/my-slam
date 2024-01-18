@@ -17,8 +17,11 @@ Thirdparty/DBoW2/lib/
 Thirdparty/g2o/build/
 Thirdparty/g2o/config.h
 Thirdparty/g2o/lib/
+Thirdparty/Pangolin-0.5/build/
+Thirdparty/Pangolin-0.5/install/
 Vocabulary/ORBvoc.txt
 build/
 *~
 lib/
+cmake-build-debug/
 

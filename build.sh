@@ -15,6 +15,19 @@ cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release
 make -j
 
+# new 
+
+cd ../../Pangolin-0.5
+
+echo "Configuring and building Thirdparty/Pangolin-0.5 ..."
+
+mkdir install
+mkdir build
+cd build
+cmake .. -DCMAKE_INSTALL_PREFIX=../install
+make -j
+make install
+
 cd ../../../
 
 echo "Uncompress vocabulary ..."
