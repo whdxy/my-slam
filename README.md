@@ -2,7 +2,7 @@
 ## 20240118
 1. 修改原版的一些小问题->成功编译
 2. orb2需要的是pangonlin-0.5
-   1. 源码安装
+   · 源码安装
    2. mkdir install
    3. mkdir build
    4. cd build
